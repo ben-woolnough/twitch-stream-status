@@ -1,0 +1,85 @@
+@media screen and (max-width: 480px) {
+  div.container {
+    min-width: 100%;
+  }
+
+  div.preview {
+    display: none;
+  }
+}
+
+body {
+  background: #2c1e4c;
+}
+
+/* HEADER */
+
+h1.heading {
+  color: #9a91d8;
+  font-family: arial;
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #d2cfe6;
+}
+
+/* CONTAINERS */
+
+.container {
+  max-width: 800px;
+  height: 100px;
+  border: solid black 3px;
+  margin: auto;
+}
+
+.container p {
+  font-weight: bold;
+}
+
+.active {
+  background: #4fd265;
+}
+
+.inactive {
+  background: #ddd;
+}
+
+.logo {
+  margin: 5px;
+  float: left;
+}
+
+.text {
+  display: inline;
+}
+
+.text p {
+  margin: 2px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.text h1 {
+  font-size: 16px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.text h1 a {
+  text-decoration: none;
+}
+
+.preview {
+  margin: 5px;
+  float: right;
+  display: inline-block;
+}
